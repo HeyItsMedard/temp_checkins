@@ -1,0 +1,1424 @@
+Problem:    meetup
+Rows:       332
+Columns:    369 (369 integer, 278 binary)
+Non-zeros:  1285
+Status:     INTEGER OPTIMAL
+Objective:  TotalRewards = 547 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 TotalRewards              547                             
+     2 RewardCondition[1,Monday]
+                                   0                          -0 
+     3 RewardCondition[1,Tuesday]
+                                   0                          -0 
+     4 RewardCondition[1,Wednesday]
+                                   0                          -0 
+     5 RewardCondition[1,Thursday]
+                                   0                          -0 
+     6 RewardCondition[1,Friday]
+                                   0                          -0 
+     7 RewardCondition[1,Saturday]
+                                   0                          -0 
+     8 RewardCondition[1,Sunday]
+                                   0                          -0 
+     9 RewardCondition[2,Monday]
+                                   0                          -0 
+    10 RewardCondition[2,Tuesday]
+                                   0                          -0 
+    11 RewardCondition[2,Wednesday]
+                                   0                          -0 
+    12 RewardCondition[2,Thursday]
+                                   0                          -0 
+    13 RewardCondition[2,Friday]
+                                   0                          -0 
+    14 RewardCondition[2,Saturday]
+                                  -1                          -0 
+    15 RewardCondition[2,Sunday]
+                                   0                          -0 
+    16 RewardCondition[3,Monday]
+                                   0                          -0 
+    17 RewardCondition[3,Tuesday]
+                                   0                          -0 
+    18 RewardCondition[3,Wednesday]
+                                   0                          -0 
+    19 RewardCondition[3,Thursday]
+                                   0                          -0 
+    20 RewardCondition[3,Friday]
+                                   0                          -0 
+    21 RewardCondition[3,Saturday]
+                                   0                          -0 
+    22 RewardCondition[3,Sunday]
+                                   0                          -0 
+    23 RewardCondition[4,Monday]
+                                   0                          -0 
+    24 RewardCondition[4,Tuesday]
+                                   0                          -0 
+    25 RewardCondition[4,Wednesday]
+                                   0                          -0 
+    26 RewardCondition[4,Thursday]
+                                   0                          -0 
+    27 RewardCondition[4,Friday]
+                                   0                          -0 
+    28 RewardCondition[4,Saturday]
+                                   0                          -0 
+    29 RewardCondition[4,Sunday]
+                                   0                          -0 
+    30 RewardCondition[5,Monday]
+                                   0                          -0 
+    31 RewardCondition[5,Tuesday]
+                                   0                          -0 
+    32 RewardCondition[5,Wednesday]
+                                   0                          -0 
+    33 RewardCondition[5,Thursday]
+                                   0                          -0 
+    34 RewardCondition[5,Friday]
+                                   0                          -0 
+    35 RewardCondition[5,Saturday]
+                                   0                          -0 
+    36 RewardCondition[5,Sunday]
+                                   0                          -0 
+    37 RewardCondition[6,Monday]
+                                   0                          -0 
+    38 RewardCondition[6,Tuesday]
+                                   0                          -0 
+    39 RewardCondition[6,Wednesday]
+                                   0                          -0 
+    40 RewardCondition[6,Thursday]
+                                   0                          -0 
+    41 RewardCondition[6,Friday]
+                                   0                          -0 
+    42 RewardCondition[6,Saturday]
+                                  -1                          -0 
+    43 RewardCondition[6,Sunday]
+                                   0                          -0 
+    44 RewardCondition[7,Monday]
+                                   0                          -0 
+    45 RewardCondition[7,Tuesday]
+                                   0                          -0 
+    46 RewardCondition[7,Wednesday]
+                                   0                          -0 
+    47 RewardCondition[7,Thursday]
+                                   0                          -0 
+    48 RewardCondition[7,Friday]
+                                   0                          -0 
+    49 RewardCondition[7,Saturday]
+                                  -1                          -0 
+    50 RewardCondition[7,Sunday]
+                                   0                          -0 
+    51 RewardCondition[8,Monday]
+                                   0                          -0 
+    52 RewardCondition[8,Tuesday]
+                                   0                          -0 
+    53 RewardCondition[8,Wednesday]
+                                   0                          -0 
+    54 RewardCondition[8,Thursday]
+                                   0                          -0 
+    55 RewardCondition[8,Friday]
+                                   0                          -0 
+    56 RewardCondition[8,Saturday]
+                                   0                          -0 
+    57 RewardCondition[8,Sunday]
+                                   0                          -0 
+    58 RewardCondition[9,Monday]
+                                   0                          -0 
+    59 RewardCondition[9,Tuesday]
+                                   0                          -0 
+    60 RewardCondition[9,Wednesday]
+                                   0                          -0 
+    61 RewardCondition[9,Thursday]
+                                   0                          -0 
+    62 RewardCondition[9,Friday]
+                                   0                          -0 
+    63 RewardCondition[9,Saturday]
+                                  -1                          -0 
+    64 RewardCondition[9,Sunday]
+                                   0                          -0 
+    65 RewardCondition[10,Monday]
+                                   0                          -0 
+    66 RewardCondition[10,Tuesday]
+                                   0                          -0 
+    67 RewardCondition[10,Wednesday]
+                                   0                          -0 
+    68 RewardCondition[10,Thursday]
+                                   0                          -0 
+    69 RewardCondition[10,Friday]
+                                   0                          -0 
+    70 RewardCondition[10,Saturday]
+                                   0                          -0 
+    71 RewardCondition[10,Sunday]
+                                   0                          -0 
+    72 RewardCondition[11,Monday]
+                                   0                          -0 
+    73 RewardCondition[11,Tuesday]
+                                   0                          -0 
+    74 RewardCondition[11,Wednesday]
+                                   0                          -0 
+    75 RewardCondition[11,Thursday]
+                                   0                          -0 
+    76 RewardCondition[11,Friday]
+                                   0                          -0 
+    77 RewardCondition[11,Saturday]
+                                   0                          -0 
+    78 RewardCondition[11,Sunday]
+                                   0                          -0 
+    79 RewardCondition[12,Monday]
+                                   0                          -0 
+    80 RewardCondition[12,Tuesday]
+                                   0                          -0 
+    81 RewardCondition[12,Wednesday]
+                                   0                          -0 
+    82 RewardCondition[12,Thursday]
+                                   0                          -0 
+    83 RewardCondition[12,Friday]
+                                   0                          -0 
+    84 RewardCondition[12,Saturday]
+                                   0                          -0 
+    85 RewardCondition[12,Sunday]
+                                   0                          -0 
+    86 RewardCondition[13,Monday]
+                                   0                          -0 
+    87 RewardCondition[13,Tuesday]
+                                  -1                          -0 
+    88 RewardCondition[13,Wednesday]
+                                   0                          -0 
+    89 RewardCondition[13,Thursday]
+                                   0                          -0 
+    90 RewardCondition[13,Friday]
+                                   0                          -0 
+    91 RewardCondition[13,Saturday]
+                                   0                          -0 
+    92 RewardCondition[13,Sunday]
+                                   0                          -0 
+    93 SzilveszterAvailability[1,Monday]
+                                   0                          -0 
+    94 SzilveszterAvailability[1,Tuesday]
+                                   0                          -0 
+    95 SzilveszterAvailability[1,Wednesday]
+                                   0                          -0 
+    96 SzilveszterAvailability[1,Thursday]
+                                   0                          -0 
+    97 SzilveszterAvailability[1,Friday]
+                                   0                          -0 
+    98 SzilveszterAvailability[1,Saturday]
+                                   1                           1 
+    99 SzilveszterAvailability[1,Sunday]
+                                   0                           1 
+   100 SzilveszterAvailability[2,Monday]
+                                   0                          -0 
+   101 SzilveszterAvailability[2,Tuesday]
+                                   0                          -0 
+   102 SzilveszterAvailability[2,Wednesday]
+                                   0                          -0 
+   103 SzilveszterAvailability[2,Thursday]
+                                   0                          -0 
+   104 SzilveszterAvailability[2,Friday]
+                                   0                          -0 
+   105 SzilveszterAvailability[2,Saturday]
+                                   1                           1 
+   106 SzilveszterAvailability[2,Sunday]
+                                   0                           1 
+   107 SzilveszterAvailability[3,Monday]
+                                   0                          -0 
+   108 SzilveszterAvailability[3,Tuesday]
+                                   0                          -0 
+   109 SzilveszterAvailability[3,Wednesday]
+                                   0                          -0 
+   110 SzilveszterAvailability[3,Thursday]
+                                   0                          -0 
+   111 SzilveszterAvailability[3,Friday]
+                                   0                          -0 
+   112 SzilveszterAvailability[3,Saturday]
+                                   1                           1 
+   113 SzilveszterAvailability[3,Sunday]
+                                   0                           1 
+   114 SzilveszterAvailability[4,Monday]
+                                   0                          -0 
+   115 SzilveszterAvailability[4,Tuesday]
+                                   0                          -0 
+   116 SzilveszterAvailability[4,Wednesday]
+                                   1                           1 
+   117 SzilveszterAvailability[4,Thursday]
+                                   0                          -0 
+   118 SzilveszterAvailability[4,Friday]
+                                   0                          -0 
+   119 SzilveszterAvailability[4,Saturday]
+                                   1                           1 
+   120 SzilveszterAvailability[4,Sunday]
+                                   0                           1 
+   121 SzilveszterAvailability[5,Monday]
+                                   0                          -0 
+   122 SzilveszterAvailability[5,Tuesday]
+                                   0                          -0 
+   123 SzilveszterAvailability[5,Wednesday]
+                                   0                          -0 
+   124 SzilveszterAvailability[5,Thursday]
+                                   0                          -0 
+   125 SzilveszterAvailability[5,Friday]
+                                   1                           1 
+   126 SzilveszterAvailability[5,Saturday]
+                                   1                           1 
+   127 SzilveszterAvailability[5,Sunday]
+                                   1                           1 
+   128 SzilveszterAvailability[6,Monday]
+                                   0                          -0 
+   129 SzilveszterAvailability[6,Tuesday]
+                                   0                          -0 
+   130 SzilveszterAvailability[6,Wednesday]
+                                   0                          -0 
+   131 SzilveszterAvailability[6,Thursday]
+                                   0                          -0 
+   132 SzilveszterAvailability[6,Friday]
+                                   0                          -0 
+   133 SzilveszterAvailability[6,Saturday]
+                                   1                           1 
+   134 SzilveszterAvailability[6,Sunday]
+                                   0                           1 
+   135 SzilveszterAvailability[7,Monday]
+                                   0                          -0 
+   136 SzilveszterAvailability[7,Tuesday]
+                                   0                          -0 
+   137 SzilveszterAvailability[7,Wednesday]
+                                   0                          -0 
+   138 SzilveszterAvailability[7,Thursday]
+                                   0                          -0 
+   139 SzilveszterAvailability[7,Friday]
+                                   0                          -0 
+   140 SzilveszterAvailability[7,Saturday]
+                                   1                           1 
+   141 SzilveszterAvailability[7,Sunday]
+                                   0                           1 
+   142 SzilveszterAvailability[8,Monday]
+                                   0                          -0 
+   143 SzilveszterAvailability[8,Tuesday]
+                                   0                          -0 
+   144 SzilveszterAvailability[8,Wednesday]
+                                   0                          -0 
+   145 SzilveszterAvailability[8,Thursday]
+                                   0                          -0 
+   146 SzilveszterAvailability[8,Friday]
+                                   0                          -0 
+   147 SzilveszterAvailability[8,Saturday]
+                                   1                           1 
+   148 SzilveszterAvailability[8,Sunday]
+                                   1                           1 
+   149 SzilveszterAvailability[9,Monday]
+                                   0                          -0 
+   150 SzilveszterAvailability[9,Tuesday]
+                                   0                          -0 
+   151 SzilveszterAvailability[9,Wednesday]
+                                   0                          -0 
+   152 SzilveszterAvailability[9,Thursday]
+                                   0                          -0 
+   153 SzilveszterAvailability[9,Friday]
+                                   0                          -0 
+   154 SzilveszterAvailability[9,Saturday]
+                                   1                           1 
+   155 SzilveszterAvailability[9,Sunday]
+                                   0                           1 
+   156 SzilveszterAvailability[10,Monday]
+                                   0                          -0 
+   157 SzilveszterAvailability[10,Tuesday]
+                                   0                          -0 
+   158 SzilveszterAvailability[10,Wednesday]
+                                   0                          -0 
+   159 SzilveszterAvailability[10,Thursday]
+                                   0                          -0 
+   160 SzilveszterAvailability[10,Friday]
+                                   0                          -0 
+   161 SzilveszterAvailability[10,Saturday]
+                                   1                           1 
+   162 SzilveszterAvailability[10,Sunday]
+                                   0                           1 
+   163 SzilveszterAvailability[11,Monday]
+                                   0                          -0 
+   164 SzilveszterAvailability[11,Tuesday]
+                                   0                          -0 
+   165 SzilveszterAvailability[11,Wednesday]
+                                   0                          -0 
+   166 SzilveszterAvailability[11,Thursday]
+                                   0                          -0 
+   167 SzilveszterAvailability[11,Friday]
+                                   0                          -0 
+   168 SzilveszterAvailability[11,Saturday]
+                                   1                           1 
+   169 SzilveszterAvailability[11,Sunday]
+                                   0                           1 
+   170 SzilveszterAvailability[12,Monday]
+                                   0                          -0 
+   171 SzilveszterAvailability[12,Tuesday]
+                                   0                          -0 
+   172 SzilveszterAvailability[12,Wednesday]
+                                   0                          -0 
+   173 SzilveszterAvailability[12,Thursday]
+                                   0                          -0 
+   174 SzilveszterAvailability[12,Friday]
+                                   0                          -0 
+   175 SzilveszterAvailability[12,Saturday]
+                                   1                           1 
+   176 SzilveszterAvailability[12,Sunday]
+                                   0                           1 
+   177 SzilveszterAvailability[13,Monday]
+                                   0                          -0 
+   178 SzilveszterAvailability[13,Tuesday]
+                                   1                           1 
+   179 SzilveszterAvailability[13,Wednesday]
+                                   0                           1 
+   180 SzilveszterAvailability[13,Thursday]
+                                   0                          -0 
+   181 SzilveszterAvailability[13,Friday]
+                                   0                          -0 
+   182 SzilveszterAvailability[13,Saturday]
+                                   0                           1 
+   183 SzilveszterAvailability[13,Sunday]
+                                   0                           1 
+   184 MedardNoMonday[1]
+                                   0            -0             = 
+   185 MedardNoMonday[2]
+                                   0            -0             = 
+   186 MedardNoMonday[3]
+                                   0            -0             = 
+   187 MedardNoMonday[4]
+                                   0            -0             = 
+   188 MedardNoMonday[5]
+                                   0            -0             = 
+   189 MedardNoMonday[6]
+                                   0            -0             = 
+   190 MedardNoMonday[7]
+                                   0            -0             = 
+   191 MedardNoMonday[8]
+                                   0            -0             = 
+   192 MedardNoMonday[9]
+                                   0            -0             = 
+   193 MedardNoMonday[10]
+                                   0            -0             = 
+   194 MedardNoMonday[11]
+                                   0            -0             = 
+   195 MedardNoMonday[12]
+                                   0            -0             = 
+   196 MedardNoMonday[13]
+                                   0            -0             = 
+   197 MedardWeekendLimit[1]
+                                   0                           1 
+   198 MedardWeekendLimit[2]
+                                   0                           1 
+   199 MedardWeekendLimit[3]
+                                   0                           1 
+   200 MedardWeekendLimit[4]
+                                   1                           1 
+   201 MedardWeekendLimit[5]
+                                   0                           1 
+   202 MedardWeekendLimit[6]
+                                   1                           1 
+   203 MedardWeekendLimit[7]
+                                   0                           1 
+   204 MedardWeekendLimit[8]
+                                   0                           1 
+   205 MedardWeekendLimit[9]
+                                   0                           1 
+   206 MedardWeekendLimit[10]
+                                   1                           1 
+   207 MedardWeekendLimit[11]
+                                   0                           1 
+   208 MedardWeekendLimit[12]
+                                   1                           1 
+   209 MedardWeekendLimit[13]
+                                   0                           1 
+   210 AmbassadorLimit[Medard,1]
+                                   2             1             3 
+   211 AmbassadorLimit[Medard,2]
+                                   3             1             3 
+   212 AmbassadorLimit[Medard,3]
+                                   2             1             3 
+   213 AmbassadorLimit[Medard,4]
+                                   2             1             3 
+   214 AmbassadorLimit[Medard,5]
+                                   3             1             3 
+   215 AmbassadorLimit[Medard,6]
+                                   3             1             3 
+   216 AmbassadorLimit[Medard,7]
+                                   2             1             3 
+   217 AmbassadorLimit[Medard,8]
+                                   3             1             3 
+   218 AmbassadorLimit[Medard,9]
+                                   2             1             3 
+   219 AmbassadorLimit[Medard,10]
+                                   3             1             3 
+   220 AmbassadorLimit[Medard,11]
+                                   2             1             3 
+   221 AmbassadorLimit[Medard,12]
+                                   3             1             3 
+   222 AmbassadorLimit[Medard,13]
+                                   2             1             3 
+   223 AmbassadorLimit[Szilveszter,1]
+                                   1             1             3 
+   224 AmbassadorLimit[Szilveszter,2]
+                                   1             1             3 
+   225 AmbassadorLimit[Szilveszter,3]
+                                   1             1             3 
+   226 AmbassadorLimit[Szilveszter,4]
+                                   2             1             3 
+   227 AmbassadorLimit[Szilveszter,5]
+                                   3             1             3 
+   228 AmbassadorLimit[Szilveszter,6]
+                                   1             1             3 
+   229 AmbassadorLimit[Szilveszter,7]
+                                   1             1             3 
+   230 AmbassadorLimit[Szilveszter,8]
+                                   2             1             3 
+   231 AmbassadorLimit[Szilveszter,9]
+                                   1             1             3 
+   232 AmbassadorLimit[Szilveszter,10]
+                                   1             1             3 
+   233 AmbassadorLimit[Szilveszter,11]
+                                   1             1             3 
+   234 AmbassadorLimit[Szilveszter,12]
+                                   1             1             3 
+   235 AmbassadorLimit[Szilveszter,13]
+                                   1             1             3 
+   236 TotalCheckinCalculation[1,Monday]
+                                   0            -0             = 
+   237 TotalCheckinCalculation[1,Tuesday]
+                                  12            12             = 
+   238 TotalCheckinCalculation[1,Wednesday]
+                                  18            18             = 
+   239 TotalCheckinCalculation[1,Thursday]
+                                   0            -0             = 
+   240 TotalCheckinCalculation[1,Friday]
+                                   0            -0             = 
+   241 TotalCheckinCalculation[1,Saturday]
+                                  36            36             = 
+   242 TotalCheckinCalculation[1,Sunday]
+                                   0            -0             = 
+   243 TotalCheckinCalculation[2,Monday]
+                                   0            -0             = 
+   244 TotalCheckinCalculation[2,Tuesday]
+                                  12            12             = 
+   245 TotalCheckinCalculation[2,Wednesday]
+                                  26            26             = 
+   246 TotalCheckinCalculation[2,Thursday]
+                                  26            26             = 
+   247 TotalCheckinCalculation[2,Friday]
+                                   0            -0             = 
+   248 TotalCheckinCalculation[2,Saturday]
+                                   0            -0             = 
+   249 TotalCheckinCalculation[2,Sunday]
+                                   0            -0             = 
+   250 TotalCheckinCalculation[3,Monday]
+                                   0            -0             = 
+   251 TotalCheckinCalculation[3,Tuesday]
+                                  10            10             = 
+   252 TotalCheckinCalculation[3,Wednesday]
+                                  30            30             = 
+   253 TotalCheckinCalculation[3,Thursday]
+                                   0            -0             = 
+   254 TotalCheckinCalculation[3,Friday]
+                                   0            -0             = 
+   255 TotalCheckinCalculation[3,Saturday]
+                                  34            34             = 
+   256 TotalCheckinCalculation[3,Sunday]
+                                   0            -0             = 
+   257 TotalCheckinCalculation[4,Monday]
+                                   0            -0             = 
+   258 TotalCheckinCalculation[4,Tuesday]
+                                  10            10             = 
+   259 TotalCheckinCalculation[4,Wednesday]
+                                  14            14             = 
+   260 TotalCheckinCalculation[4,Thursday]
+                                   0            -0             = 
+   261 TotalCheckinCalculation[4,Friday]
+                                   0            -0             = 
+   262 TotalCheckinCalculation[4,Saturday]
+                                  42            42             = 
+   263 TotalCheckinCalculation[4,Sunday]
+                                  46            46             = 
+   264 TotalCheckinCalculation[5,Monday]
+                                   0            -0             = 
+   265 TotalCheckinCalculation[5,Tuesday]
+                                  14            14             = 
+   266 TotalCheckinCalculation[5,Wednesday]
+                                  16            16             = 
+   267 TotalCheckinCalculation[5,Thursday]
+                                  16            16             = 
+   268 TotalCheckinCalculation[5,Friday]
+                                  26            26             = 
+   269 TotalCheckinCalculation[5,Saturday]
+                                  44            44             = 
+   270 TotalCheckinCalculation[5,Sunday]
+                                  46            46             = 
+   271 TotalCheckinCalculation[6,Monday]
+                                   6             6             = 
+   272 TotalCheckinCalculation[6,Tuesday]
+                                  12            12             = 
+   273 TotalCheckinCalculation[6,Wednesday]
+                                  20            20             = 
+   274 TotalCheckinCalculation[6,Thursday]
+                                   0            -0             = 
+   275 TotalCheckinCalculation[6,Friday]
+                                   0            -0             = 
+   276 TotalCheckinCalculation[6,Saturday]
+                                   0            -0             = 
+   277 TotalCheckinCalculation[6,Sunday]
+                                  36            36             = 
+   278 TotalCheckinCalculation[7,Monday]
+                                  10            10             = 
+   279 TotalCheckinCalculation[7,Tuesday]
+                                  10            10             = 
+   280 TotalCheckinCalculation[7,Wednesday]
+                                  14            14             = 
+   281 TotalCheckinCalculation[7,Thursday]
+                                   0            -0             = 
+   282 TotalCheckinCalculation[7,Friday]
+                                   0            -0             = 
+   283 TotalCheckinCalculation[7,Saturday]
+                                   0            -0             = 
+   284 TotalCheckinCalculation[7,Sunday]
+                                   0            -0             = 
+   285 TotalCheckinCalculation[8,Monday]
+                                   8             8             = 
+   286 TotalCheckinCalculation[8,Tuesday]
+                                  14            14             = 
+   287 TotalCheckinCalculation[8,Wednesday]
+                                  16            16             = 
+   288 TotalCheckinCalculation[8,Thursday]
+                                  20            20             = 
+   289 TotalCheckinCalculation[8,Friday]
+                                  26            26             = 
+   290 TotalCheckinCalculation[8,Saturday]
+                                  48            48             = 
+   291 TotalCheckinCalculation[8,Sunday]
+                                  50            50             = 
+   292 TotalCheckinCalculation[9,Monday]
+                                   8             8             = 
+   293 TotalCheckinCalculation[9,Tuesday]
+                                  12            12             = 
+   294 TotalCheckinCalculation[9,Wednesday]
+                                  28            28             = 
+   295 TotalCheckinCalculation[9,Thursday]
+                                   0            -0             = 
+   296 TotalCheckinCalculation[9,Friday]
+                                   0            -0             = 
+   297 TotalCheckinCalculation[9,Saturday]
+                                   0            -0             = 
+   298 TotalCheckinCalculation[9,Sunday]
+                                   0            -0             = 
+   299 TotalCheckinCalculation[10,Monday]
+                                   8             8             = 
+   300 TotalCheckinCalculation[10,Tuesday]
+                                  10            10             = 
+   301 TotalCheckinCalculation[10,Wednesday]
+                                  20            20             = 
+   302 TotalCheckinCalculation[10,Thursday]
+                                   0            -0             = 
+   303 TotalCheckinCalculation[10,Friday]
+                                   0            -0             = 
+   304 TotalCheckinCalculation[10,Saturday]
+                                  38            38             = 
+   305 TotalCheckinCalculation[10,Sunday]
+                                  46            46             = 
+   306 TotalCheckinCalculation[11,Monday]
+                                  10            10             = 
+   307 TotalCheckinCalculation[11,Tuesday]
+                                  14            14             = 
+   308 TotalCheckinCalculation[11,Wednesday]
+                                  18            18             = 
+   309 TotalCheckinCalculation[11,Thursday]
+                                   0            -0             = 
+   310 TotalCheckinCalculation[11,Friday]
+                                   0            -0             = 
+   311 TotalCheckinCalculation[11,Saturday]
+                                  34            34             = 
+   312 TotalCheckinCalculation[11,Sunday]
+                                   0            -0             = 
+   313 TotalCheckinCalculation[12,Monday]
+                                   8             8             = 
+   314 TotalCheckinCalculation[12,Tuesday]
+                                  12            12             = 
+   315 TotalCheckinCalculation[12,Wednesday]
+                                  24            24             = 
+   316 TotalCheckinCalculation[12,Thursday]
+                                   0            -0             = 
+   317 TotalCheckinCalculation[12,Friday]
+                                   0            -0             = 
+   318 TotalCheckinCalculation[12,Saturday]
+                                  40            40             = 
+   319 TotalCheckinCalculation[12,Sunday]
+                                  32            32             = 
+   320 TotalCheckinCalculation[13,Monday]
+                                   8             8             = 
+   321 TotalCheckinCalculation[13,Tuesday]
+                                  12            12             = 
+   322 TotalCheckinCalculation[13,Wednesday]
+                                  24            24             = 
+   323 TotalCheckinCalculation[13,Thursday]
+                                   0            -0             = 
+   324 TotalCheckinCalculation[13,Friday]
+                                   0            -0             = 
+   325 TotalCheckinCalculation[13,Saturday]
+                                   0            -0             = 
+   326 TotalCheckinCalculation[13,Sunday]
+                                   0            -0             = 
+   327 LeagueClassificationOrigin
+                                1042            -0               
+   328 LeagueClassificationGreat
+                                1042            -0               
+   329 LeagueClassificationMaster
+                                1042            -0               
+   330 LeagueClassificationUltra
+                                 293            -0               
+   331 LeagueClassificationLegendary
+                                1042            -0               
+   332 SingleLeague                1             1             = 
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[Medard,1,Monday]
+                    *              0             0             1 
+     2 x[Szilveszter,1,Monday]
+                    *              0             0             1 
+     3 x[Medard,1,Tuesday]
+                    *              1             0             1 
+     4 x[Szilveszter,1,Tuesday]
+                    *              0             0             1 
+     5 x[Medard,1,Wednesday]
+                    *              1             0             1 
+     6 x[Szilveszter,1,Wednesday]
+                    *              0             0             1 
+     7 x[Medard,1,Thursday]
+                    *              0             0             1 
+     8 x[Szilveszter,1,Thursday]
+                    *              0             0             1 
+     9 x[Medard,1,Friday]
+                    *              0             0             1 
+    10 x[Szilveszter,1,Friday]
+                    *              0             0             1 
+    11 x[Medard,1,Saturday]
+                    *              0             0             1 
+    12 x[Szilveszter,1,Saturday]
+                    *              1             0             1 
+    13 x[Medard,1,Sunday]
+                    *              0             0             1 
+    14 x[Szilveszter,1,Sunday]
+                    *              0             0             1 
+    15 x[Medard,2,Monday]
+                    *              0             0             1 
+    16 x[Szilveszter,2,Monday]
+                    *              0             0             1 
+    17 x[Medard,2,Tuesday]
+                    *              1             0             1 
+    18 x[Szilveszter,2,Tuesday]
+                    *              0             0             1 
+    19 x[Medard,2,Wednesday]
+                    *              1             0             1 
+    20 x[Szilveszter,2,Wednesday]
+                    *              0             0             1 
+    21 x[Medard,2,Thursday]
+                    *              1             0             1 
+    22 x[Szilveszter,2,Thursday]
+                    *              0             0             1 
+    23 x[Medard,2,Friday]
+                    *              0             0             1 
+    24 x[Szilveszter,2,Friday]
+                    *              0             0             1 
+    25 x[Medard,2,Saturday]
+                    *              0             0             1 
+    26 x[Szilveszter,2,Saturday]
+                    *              1             0             1 
+    27 x[Medard,2,Sunday]
+                    *              0             0             1 
+    28 x[Szilveszter,2,Sunday]
+                    *              0             0             1 
+    29 x[Medard,3,Monday]
+                    *              0             0             1 
+    30 x[Szilveszter,3,Monday]
+                    *              0             0             1 
+    31 x[Medard,3,Tuesday]
+                    *              1             0             1 
+    32 x[Szilveszter,3,Tuesday]
+                    *              0             0             1 
+    33 x[Medard,3,Wednesday]
+                    *              1             0             1 
+    34 x[Szilveszter,3,Wednesday]
+                    *              0             0             1 
+    35 x[Medard,3,Thursday]
+                    *              0             0             1 
+    36 x[Szilveszter,3,Thursday]
+                    *              0             0             1 
+    37 x[Medard,3,Friday]
+                    *              0             0             1 
+    38 x[Szilveszter,3,Friday]
+                    *              0             0             1 
+    39 x[Medard,3,Saturday]
+                    *              0             0             1 
+    40 x[Szilveszter,3,Saturday]
+                    *              1             0             1 
+    41 x[Medard,3,Sunday]
+                    *              0             0             1 
+    42 x[Szilveszter,3,Sunday]
+                    *              0             0             1 
+    43 x[Medard,4,Monday]
+                    *              0             0             1 
+    44 x[Szilveszter,4,Monday]
+                    *              0             0             1 
+    45 x[Medard,4,Tuesday]
+                    *              1             0             1 
+    46 x[Szilveszter,4,Tuesday]
+                    *              0             0             1 
+    47 x[Medard,4,Wednesday]
+                    *              0             0             1 
+    48 x[Szilveszter,4,Wednesday]
+                    *              1             0             1 
+    49 x[Medard,4,Thursday]
+                    *              0             0             1 
+    50 x[Szilveszter,4,Thursday]
+                    *              0             0             1 
+    51 x[Medard,4,Friday]
+                    *              0             0             1 
+    52 x[Szilveszter,4,Friday]
+                    *              0             0             1 
+    53 x[Medard,4,Saturday]
+                    *              0             0             1 
+    54 x[Szilveszter,4,Saturday]
+                    *              1             0             1 
+    55 x[Medard,4,Sunday]
+                    *              1             0             1 
+    56 x[Szilveszter,4,Sunday]
+                    *              0             0             1 
+    57 x[Medard,5,Monday]
+                    *              0             0             1 
+    58 x[Szilveszter,5,Monday]
+                    *              0             0             1 
+    59 x[Medard,5,Tuesday]
+                    *              1             0             1 
+    60 x[Szilveszter,5,Tuesday]
+                    *              0             0             1 
+    61 x[Medard,5,Wednesday]
+                    *              1             0             1 
+    62 x[Szilveszter,5,Wednesday]
+                    *              0             0             1 
+    63 x[Medard,5,Thursday]
+                    *              1             0             1 
+    64 x[Szilveszter,5,Thursday]
+                    *              0             0             1 
+    65 x[Medard,5,Friday]
+                    *              0             0             1 
+    66 x[Szilveszter,5,Friday]
+                    *              1             0             1 
+    67 x[Medard,5,Saturday]
+                    *              0             0             1 
+    68 x[Szilveszter,5,Saturday]
+                    *              1             0             1 
+    69 x[Medard,5,Sunday]
+                    *              0             0             1 
+    70 x[Szilveszter,5,Sunday]
+                    *              1             0             1 
+    71 x[Medard,6,Monday]
+                    *              0             0             1 
+    72 x[Szilveszter,6,Monday]
+                    *              0             0             1 
+    73 x[Medard,6,Tuesday]
+                    *              1             0             1 
+    74 x[Szilveszter,6,Tuesday]
+                    *              0             0             1 
+    75 x[Medard,6,Wednesday]
+                    *              1             0             1 
+    76 x[Szilveszter,6,Wednesday]
+                    *              0             0             1 
+    77 x[Medard,6,Thursday]
+                    *              0             0             1 
+    78 x[Szilveszter,6,Thursday]
+                    *              0             0             1 
+    79 x[Medard,6,Friday]
+                    *              0             0             1 
+    80 x[Szilveszter,6,Friday]
+                    *              0             0             1 
+    81 x[Medard,6,Saturday]
+                    *              0             0             1 
+    82 x[Szilveszter,6,Saturday]
+                    *              1             0             1 
+    83 x[Medard,6,Sunday]
+                    *              1             0             1 
+    84 x[Szilveszter,6,Sunday]
+                    *              0             0             1 
+    85 x[Medard,7,Monday]
+                    *              0             0             1 
+    86 x[Szilveszter,7,Monday]
+                    *              0             0             1 
+    87 x[Medard,7,Tuesday]
+                    *              1             0             1 
+    88 x[Szilveszter,7,Tuesday]
+                    *              0             0             1 
+    89 x[Medard,7,Wednesday]
+                    *              1             0             1 
+    90 x[Szilveszter,7,Wednesday]
+                    *              0             0             1 
+    91 x[Medard,7,Thursday]
+                    *              0             0             1 
+    92 x[Szilveszter,7,Thursday]
+                    *              0             0             1 
+    93 x[Medard,7,Friday]
+                    *              0             0             1 
+    94 x[Szilveszter,7,Friday]
+                    *              0             0             1 
+    95 x[Medard,7,Saturday]
+                    *              0             0             1 
+    96 x[Szilveszter,7,Saturday]
+                    *              1             0             1 
+    97 x[Medard,7,Sunday]
+                    *              0             0             1 
+    98 x[Szilveszter,7,Sunday]
+                    *              0             0             1 
+    99 x[Medard,8,Monday]
+                    *              0             0             1 
+   100 x[Szilveszter,8,Monday]
+                    *              0             0             1 
+   101 x[Medard,8,Tuesday]
+                    *              0             0             1 
+   102 x[Szilveszter,8,Tuesday]
+                    *              0             0             1 
+   103 x[Medard,8,Wednesday]
+                    *              1             0             1 
+   104 x[Szilveszter,8,Wednesday]
+                    *              0             0             1 
+   105 x[Medard,8,Thursday]
+                    *              1             0             1 
+   106 x[Szilveszter,8,Thursday]
+                    *              0             0             1 
+   107 x[Medard,8,Friday]
+                    *              1             0             1 
+   108 x[Szilveszter,8,Friday]
+                    *              0             0             1 
+   109 x[Medard,8,Saturday]
+                    *              0             0             1 
+   110 x[Szilveszter,8,Saturday]
+                    *              1             0             1 
+   111 x[Medard,8,Sunday]
+                    *              0             0             1 
+   112 x[Szilveszter,8,Sunday]
+                    *              1             0             1 
+   113 x[Medard,9,Monday]
+                    *              0             0             1 
+   114 x[Szilveszter,9,Monday]
+                    *              0             0             1 
+   115 x[Medard,9,Tuesday]
+                    *              1             0             1 
+   116 x[Szilveszter,9,Tuesday]
+                    *              0             0             1 
+   117 x[Medard,9,Wednesday]
+                    *              1             0             1 
+   118 x[Szilveszter,9,Wednesday]
+                    *              0             0             1 
+   119 x[Medard,9,Thursday]
+                    *              0             0             1 
+   120 x[Szilveszter,9,Thursday]
+                    *              0             0             1 
+   121 x[Medard,9,Friday]
+                    *              0             0             1 
+   122 x[Szilveszter,9,Friday]
+                    *              0             0             1 
+   123 x[Medard,9,Saturday]
+                    *              0             0             1 
+   124 x[Szilveszter,9,Saturday]
+                    *              1             0             1 
+   125 x[Medard,9,Sunday]
+                    *              0             0             1 
+   126 x[Szilveszter,9,Sunday]
+                    *              0             0             1 
+   127 x[Medard,10,Monday]
+                    *              0             0             1 
+   128 x[Szilveszter,10,Monday]
+                    *              0             0             1 
+   129 x[Medard,10,Tuesday]
+                    *              1             0             1 
+   130 x[Szilveszter,10,Tuesday]
+                    *              0             0             1 
+   131 x[Medard,10,Wednesday]
+                    *              1             0             1 
+   132 x[Szilveszter,10,Wednesday]
+                    *              0             0             1 
+   133 x[Medard,10,Thursday]
+                    *              0             0             1 
+   134 x[Szilveszter,10,Thursday]
+                    *              0             0             1 
+   135 x[Medard,10,Friday]
+                    *              0             0             1 
+   136 x[Szilveszter,10,Friday]
+                    *              0             0             1 
+   137 x[Medard,10,Saturday]
+                    *              0             0             1 
+   138 x[Szilveszter,10,Saturday]
+                    *              1             0             1 
+   139 x[Medard,10,Sunday]
+                    *              1             0             1 
+   140 x[Szilveszter,10,Sunday]
+                    *              0             0             1 
+   141 x[Medard,11,Monday]
+                    *              0             0             1 
+   142 x[Szilveszter,11,Monday]
+                    *              0             0             1 
+   143 x[Medard,11,Tuesday]
+                    *              1             0             1 
+   144 x[Szilveszter,11,Tuesday]
+                    *              0             0             1 
+   145 x[Medard,11,Wednesday]
+                    *              1             0             1 
+   146 x[Szilveszter,11,Wednesday]
+                    *              0             0             1 
+   147 x[Medard,11,Thursday]
+                    *              0             0             1 
+   148 x[Szilveszter,11,Thursday]
+                    *              0             0             1 
+   149 x[Medard,11,Friday]
+                    *              0             0             1 
+   150 x[Szilveszter,11,Friday]
+                    *              0             0             1 
+   151 x[Medard,11,Saturday]
+                    *              0             0             1 
+   152 x[Szilveszter,11,Saturday]
+                    *              1             0             1 
+   153 x[Medard,11,Sunday]
+                    *              0             0             1 
+   154 x[Szilveszter,11,Sunday]
+                    *              0             0             1 
+   155 x[Medard,12,Monday]
+                    *              0             0             1 
+   156 x[Szilveszter,12,Monday]
+                    *              0             0             1 
+   157 x[Medard,12,Tuesday]
+                    *              1             0             1 
+   158 x[Szilveszter,12,Tuesday]
+                    *              0             0             1 
+   159 x[Medard,12,Wednesday]
+                    *              1             0             1 
+   160 x[Szilveszter,12,Wednesday]
+                    *              0             0             1 
+   161 x[Medard,12,Thursday]
+                    *              0             0             1 
+   162 x[Szilveszter,12,Thursday]
+                    *              0             0             1 
+   163 x[Medard,12,Friday]
+                    *              0             0             1 
+   164 x[Szilveszter,12,Friday]
+                    *              0             0             1 
+   165 x[Medard,12,Saturday]
+                    *              0             0             1 
+   166 x[Szilveszter,12,Saturday]
+                    *              1             0             1 
+   167 x[Medard,12,Sunday]
+                    *              1             0             1 
+   168 x[Szilveszter,12,Sunday]
+                    *              0             0             1 
+   169 x[Medard,13,Monday]
+                    *              0             0             1 
+   170 x[Szilveszter,13,Monday]
+                    *              0             0             1 
+   171 x[Medard,13,Tuesday]
+                    *              1             0             1 
+   172 x[Szilveszter,13,Tuesday]
+                    *              1             0             1 
+   173 x[Medard,13,Wednesday]
+                    *              1             0             1 
+   174 x[Szilveszter,13,Wednesday]
+                    *              0             0             1 
+   175 x[Medard,13,Thursday]
+                    *              0             0             1 
+   176 x[Szilveszter,13,Thursday]
+                    *              0             0             1 
+   177 x[Medard,13,Friday]
+                    *              0             0             1 
+   178 x[Szilveszter,13,Friday]
+                    *              0             0             1 
+   179 x[Medard,13,Saturday]
+                    *              0             0             1 
+   180 x[Szilveszter,13,Saturday]
+                    *              0             0             1 
+   181 x[Medard,13,Sunday]
+                    *              0             0             1 
+   182 x[Szilveszter,13,Sunday]
+                    *              0             0             1 
+   183 reward[1,Monday]
+                    *              0             0             1 
+   184 reward[1,Tuesday]
+                    *              1             0             1 
+   185 reward[1,Wednesday]
+                    *              1             0             1 
+   186 reward[1,Thursday]
+                    *              0             0             1 
+   187 reward[1,Friday]
+                    *              0             0             1 
+   188 reward[1,Saturday]
+                    *              1             0             1 
+   189 reward[1,Sunday]
+                    *              0             0             1 
+   190 reward[2,Monday]
+                    *              0             0             1 
+   191 reward[2,Tuesday]
+                    *              1             0             1 
+   192 reward[2,Wednesday]
+                    *              1             0             1 
+   193 reward[2,Thursday]
+                    *              1             0             1 
+   194 reward[2,Friday]
+                    *              0             0             1 
+   195 reward[2,Saturday]
+                    *              0             0             1 
+   196 reward[2,Sunday]
+                    *              0             0             1 
+   197 reward[3,Monday]
+                    *              0             0             1 
+   198 reward[3,Tuesday]
+                    *              1             0             1 
+   199 reward[3,Wednesday]
+                    *              1             0             1 
+   200 reward[3,Thursday]
+                    *              0             0             1 
+   201 reward[3,Friday]
+                    *              0             0             1 
+   202 reward[3,Saturday]
+                    *              1             0             1 
+   203 reward[3,Sunday]
+                    *              0             0             1 
+   204 reward[4,Monday]
+                    *              0             0             1 
+   205 reward[4,Tuesday]
+                    *              1             0             1 
+   206 reward[4,Wednesday]
+                    *              1             0             1 
+   207 reward[4,Thursday]
+                    *              0             0             1 
+   208 reward[4,Friday]
+                    *              0             0             1 
+   209 reward[4,Saturday]
+                    *              1             0             1 
+   210 reward[4,Sunday]
+                    *              1             0             1 
+   211 reward[5,Monday]
+                    *              0             0             1 
+   212 reward[5,Tuesday]
+                    *              1             0             1 
+   213 reward[5,Wednesday]
+                    *              1             0             1 
+   214 reward[5,Thursday]
+                    *              1             0             1 
+   215 reward[5,Friday]
+                    *              1             0             1 
+   216 reward[5,Saturday]
+                    *              1             0             1 
+   217 reward[5,Sunday]
+                    *              1             0             1 
+   218 reward[6,Monday]
+                    *              0             0             1 
+   219 reward[6,Tuesday]
+                    *              1             0             1 
+   220 reward[6,Wednesday]
+                    *              1             0             1 
+   221 reward[6,Thursday]
+                    *              0             0             1 
+   222 reward[6,Friday]
+                    *              0             0             1 
+   223 reward[6,Saturday]
+                    *              0             0             1 
+   224 reward[6,Sunday]
+                    *              1             0             1 
+   225 reward[7,Monday]
+                    *              0             0             1 
+   226 reward[7,Tuesday]
+                    *              1             0             1 
+   227 reward[7,Wednesday]
+                    *              1             0             1 
+   228 reward[7,Thursday]
+                    *              0             0             1 
+   229 reward[7,Friday]
+                    *              0             0             1 
+   230 reward[7,Saturday]
+                    *              0             0             1 
+   231 reward[7,Sunday]
+                    *              0             0             1 
+   232 reward[8,Monday]
+                    *              0             0             1 
+   233 reward[8,Tuesday]
+                    *              0             0             1 
+   234 reward[8,Wednesday]
+                    *              1             0             1 
+   235 reward[8,Thursday]
+                    *              1             0             1 
+   236 reward[8,Friday]
+                    *              1             0             1 
+   237 reward[8,Saturday]
+                    *              1             0             1 
+   238 reward[8,Sunday]
+                    *              1             0             1 
+   239 reward[9,Monday]
+                    *              0             0             1 
+   240 reward[9,Tuesday]
+                    *              1             0             1 
+   241 reward[9,Wednesday]
+                    *              1             0             1 
+   242 reward[9,Thursday]
+                    *              0             0             1 
+   243 reward[9,Friday]
+                    *              0             0             1 
+   244 reward[9,Saturday]
+                    *              0             0             1 
+   245 reward[9,Sunday]
+                    *              0             0             1 
+   246 reward[10,Monday]
+                    *              0             0             1 
+   247 reward[10,Tuesday]
+                    *              1             0             1 
+   248 reward[10,Wednesday]
+                    *              1             0             1 
+   249 reward[10,Thursday]
+                    *              0             0             1 
+   250 reward[10,Friday]
+                    *              0             0             1 
+   251 reward[10,Saturday]
+                    *              1             0             1 
+   252 reward[10,Sunday]
+                    *              1             0             1 
+   253 reward[11,Monday]
+                    *              0             0             1 
+   254 reward[11,Tuesday]
+                    *              1             0             1 
+   255 reward[11,Wednesday]
+                    *              1             0             1 
+   256 reward[11,Thursday]
+                    *              0             0             1 
+   257 reward[11,Friday]
+                    *              0             0             1 
+   258 reward[11,Saturday]
+                    *              1             0             1 
+   259 reward[11,Sunday]
+                    *              0             0             1 
+   260 reward[12,Monday]
+                    *              0             0             1 
+   261 reward[12,Tuesday]
+                    *              1             0             1 
+   262 reward[12,Wednesday]
+                    *              1             0             1 
+   263 reward[12,Thursday]
+                    *              0             0             1 
+   264 reward[12,Friday]
+                    *              0             0             1 
+   265 reward[12,Saturday]
+                    *              1             0             1 
+   266 reward[12,Sunday]
+                    *              1             0             1 
+   267 reward[13,Monday]
+                    *              0             0             1 
+   268 reward[13,Tuesday]
+                    *              1             0             1 
+   269 reward[13,Wednesday]
+                    *              1             0             1 
+   270 reward[13,Thursday]
+                    *              0             0             1 
+   271 reward[13,Friday]
+                    *              0             0             1 
+   272 reward[13,Saturday]
+                    *              0             0             1 
+   273 reward[13,Sunday]
+                    *              0             0             1 
+   274 totalCheckin[1,Monday]
+                    *              0             0               
+   275 totalCheckin[1,Tuesday]
+                    *              9             0               
+   276 totalCheckin[1,Wednesday]
+                    *             15             0               
+   277 totalCheckin[1,Thursday]
+                    *              0             0               
+   278 totalCheckin[1,Friday]
+                    *              0             0               
+   279 totalCheckin[1,Saturday]
+                    *             33             0               
+   280 totalCheckin[1,Sunday]
+                    *              0             0               
+   281 totalCheckin[2,Monday]
+                    *              0             0               
+   282 totalCheckin[2,Tuesday]
+                    *              9             0               
+   283 totalCheckin[2,Wednesday]
+                    *             23             0               
+   284 totalCheckin[2,Thursday]
+                    *             23             0               
+   285 totalCheckin[2,Friday]
+                    *              0             0               
+   286 totalCheckin[2,Saturday]
+                    *              0             0               
+   287 totalCheckin[2,Sunday]
+                    *              0             0               
+   288 totalCheckin[3,Monday]
+                    *              0             0               
+   289 totalCheckin[3,Tuesday]
+                    *              7             0               
+   290 totalCheckin[3,Wednesday]
+                    *             27             0               
+   291 totalCheckin[3,Thursday]
+                    *              0             0               
+   292 totalCheckin[3,Friday]
+                    *              0             0               
+   293 totalCheckin[3,Saturday]
+                    *             31             0               
+   294 totalCheckin[3,Sunday]
+                    *              0             0               
+   295 totalCheckin[4,Monday]
+                    *              0             0               
+   296 totalCheckin[4,Tuesday]
+                    *              7             0               
+   297 totalCheckin[4,Wednesday]
+                    *             11             0               
+   298 totalCheckin[4,Thursday]
+                    *              0             0               
+   299 totalCheckin[4,Friday]
+                    *              0             0               
+   300 totalCheckin[4,Saturday]
+                    *             39             0               
+   301 totalCheckin[4,Sunday]
+                    *             43             0               
+   302 totalCheckin[5,Monday]
+                    *              0             0               
+   303 totalCheckin[5,Tuesday]
+                    *             11             0               
+   304 totalCheckin[5,Wednesday]
+                    *             13             0               
+   305 totalCheckin[5,Thursday]
+                    *             13             0               
+   306 totalCheckin[5,Friday]
+                    *             23             0               
+   307 totalCheckin[5,Saturday]
+                    *             41             0               
+   308 totalCheckin[5,Sunday]
+                    *             43             0               
+   309 totalCheckin[6,Monday]
+                    *              6             0               
+   310 totalCheckin[6,Tuesday]
+                    *              9             0               
+   311 totalCheckin[6,Wednesday]
+                    *             17             0               
+   312 totalCheckin[6,Thursday]
+                    *              0             0               
+   313 totalCheckin[6,Friday]
+                    *              0             0               
+   314 totalCheckin[6,Saturday]
+                    *              0             0               
+   315 totalCheckin[6,Sunday]
+                    *             33             0               
+   316 totalCheckin[7,Monday]
+                    *             10             0               
+   317 totalCheckin[7,Tuesday]
+                    *              7             0               
+   318 totalCheckin[7,Wednesday]
+                    *             11             0               
+   319 totalCheckin[7,Thursday]
+                    *              0             0               
+   320 totalCheckin[7,Friday]
+                    *              0             0               
+   321 totalCheckin[7,Saturday]
+                    *              0             0               
+   322 totalCheckin[7,Sunday]
+                    *              0             0               
+   323 totalCheckin[8,Monday]
+                    *              8             0               
+   324 totalCheckin[8,Tuesday]
+                    *             14             0               
+   325 totalCheckin[8,Wednesday]
+                    *             13             0               
+   326 totalCheckin[8,Thursday]
+                    *             17             0               
+   327 totalCheckin[8,Friday]
+                    *             23             0               
+   328 totalCheckin[8,Saturday]
+                    *             45             0               
+   329 totalCheckin[8,Sunday]
+                    *             47             0               
+   330 totalCheckin[9,Monday]
+                    *              8             0               
+   331 totalCheckin[9,Tuesday]
+                    *              9             0               
+   332 totalCheckin[9,Wednesday]
+                    *             25             0               
+   333 totalCheckin[9,Thursday]
+                    *              0             0               
+   334 totalCheckin[9,Friday]
+                    *              0             0               
+   335 totalCheckin[9,Saturday]
+                    *              0             0               
+   336 totalCheckin[9,Sunday]
+                    *              0             0               
+   337 totalCheckin[10,Monday]
+                    *              8             0               
+   338 totalCheckin[10,Tuesday]
+                    *              7             0               
+   339 totalCheckin[10,Wednesday]
+                    *             17             0               
+   340 totalCheckin[10,Thursday]
+                    *              0             0               
+   341 totalCheckin[10,Friday]
+                    *              0             0               
+   342 totalCheckin[10,Saturday]
+                    *             35             0               
+   343 totalCheckin[10,Sunday]
+                    *             43             0               
+   344 totalCheckin[11,Monday]
+                    *             10             0               
+   345 totalCheckin[11,Tuesday]
+                    *             11             0               
+   346 totalCheckin[11,Wednesday]
+                    *             15             0               
+   347 totalCheckin[11,Thursday]
+                    *              0             0               
+   348 totalCheckin[11,Friday]
+                    *              0             0               
+   349 totalCheckin[11,Saturday]
+                    *             31             0               
+   350 totalCheckin[11,Sunday]
+                    *              0             0               
+   351 totalCheckin[12,Monday]
+                    *              8             0               
+   352 totalCheckin[12,Tuesday]
+                    *              9             0               
+   353 totalCheckin[12,Wednesday]
+                    *             21             0               
+   354 totalCheckin[12,Thursday]
+                    *              0             0               
+   355 totalCheckin[12,Friday]
+                    *              0             0               
+   356 totalCheckin[12,Saturday]
+                    *             37             0               
+   357 totalCheckin[12,Sunday]
+                    *             29             0               
+   358 totalCheckin[13,Monday]
+                    *              8             0               
+   359 totalCheckin[13,Tuesday]
+                    *              9             0               
+   360 totalCheckin[13,Wednesday]
+                    *             21             0               
+   361 totalCheckin[13,Thursday]
+                    *              0             0               
+   362 totalCheckin[13,Friday]
+                    *              0             0               
+   363 totalCheckin[13,Saturday]
+                    *              0             0               
+   364 totalCheckin[13,Sunday]
+                    *              0             0               
+   365 league[Origin]
+                    *              0             0             1 
+   366 league[Great]
+                    *              0             0             1 
+   367 league[Master]
+                    *              0             0             1 
+   368 league[Ultra]
+                    *              1             0             1 
+   369 league[Legendary]
+                    *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

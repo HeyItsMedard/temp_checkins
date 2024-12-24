@@ -1,0 +1,270 @@
+{
+    "events": [
+      {
+        "date": "2024-10-01",
+        "type": "Spotlight Hour",
+        "weekday": true
+      },
+      {
+        "date": "2024-10-08",
+        "type": "Spotlight Hour",
+        "weekday": true
+      },
+      {
+        "date": "2024-10-15",
+        "type": "Spotlight Hour",
+        "weekday": true
+      },
+      {
+        "date": "2024-10-22",
+        "type": "Spotlight Hour",
+        "weekday": true
+      },
+      {
+        "date": "2024-10-29",
+        "type": "Spotlight Hour",
+        "weekday": true
+      },
+      {
+        "date": "2024-10-02",
+        "type": "Raid Hour",
+        "weekday": true
+      },
+      {
+        "date": "2024-10-09",
+        "type": "Raid Hour",
+        "weekday": true
+      },
+      {
+        "date": "2024-10-16",
+        "type": "Raid Hour",
+        "weekday": true
+      },
+      {
+        "date": "2024-10-23",
+        "type": "Raid Hour",
+        "weekday": true
+      },
+      {
+        "date": "2024-10-30",
+        "type": "Raid Hour",
+        "weekday": true
+      },
+      {
+        "date": "2024-10-05",
+        "type": "Community Day",
+        "weekday": false
+      },
+      {
+        "date": "2024-10-10",
+        "type": "Mega Raid Day",
+        "weekday": true
+      },
+      {
+        "date": "2024-10-19",
+        "type": "Research Day",
+        "weekday": false
+      },
+      {
+        "date": "2024-10-26",
+        "type": "Gigantamax Raid Day 1",
+        "weekday": false
+      },
+      {
+        "date": "2024-10-27",
+        "type": "Gigantamax Raid Day 2",
+        "weekday": false
+      },
+      {
+        "date": "2024-10-31",
+        "type": "Gigantamax Raid Day 0 Gengar",
+        "weekday": true
+      },
+      {
+        "date": "2024-11-05",
+        "type": "Spotlight Hour",
+        "weekday": true
+      },
+      {
+        "date": "2024-11-12",
+        "type": "Spotlight Hour",
+        "weekday": true
+      },
+      {
+        "date": "2024-11-26",
+        "type": "Spotlight Hour",
+        "weekday": true
+      },
+      {
+        "date": "2024-11-06",
+        "type": "Raid Hour",
+        "weekday": true
+      },
+      {
+        "date": "2024-11-13",
+        "type": "Raid Hour",
+        "weekday": true
+      },
+      {
+        "date": "2024-11-19",
+        "type": "Raid Hour",
+        "weekday": true
+      },
+      {
+        "date": "2024-11-20",
+        "type": "Raid Hour",
+        "weekday": true
+      },
+      {
+        "date": "2024-11-21",
+        "type": "Raid Hour",
+        "weekday": true
+      },
+      {
+        "date": "2024-11-22",
+        "type": "Raid Hour",
+        "weekday": true
+      },
+      {
+        "date": "2024-11-27",
+        "type": "Raid Hour",
+        "weekday": true
+      },
+      {
+        "date": "2024-11-01",
+        "type": "Gigantamax Raid Day 1 Gengar",
+        "weekday": true
+      },
+      {
+        "date": "2024-11-02",
+        "type": "Gigantamax Raid Day 2 Gengar",
+        "weekday": false
+      },
+      {
+        "date": "2024-11-03",
+        "type": "Gigantamax Raid Day 3 Gengar",
+        "weekday": false
+      },
+      {
+        "date": "2024-11-10",
+        "type": "Community Day",
+        "weekday": false
+      },
+      {
+        "date": "2024-11-11",
+        "type": "Max Monday",
+        "weekday": true
+      },
+      {
+        "date": "2024-11-18",
+        "type": "Max Monday",
+        "weekday": true
+      },
+      {
+        "date": "2024-11-25",
+        "type": "Max Monday",
+        "weekday": true
+      },
+      {
+        "date": "2024-11-23",
+        "type": "Wild Area Day 1",
+        "weekday": false
+      },
+      {
+        "date": "2024-11-24",
+        "type": "Wild Area Day 2",
+        "weekday": false
+      },
+      {
+        "date": "2024-12-03",
+        "type": "Spotlight Hour",
+        "weekday": true
+      },
+      {
+        "date": "2024-12-10",
+        "type": "Spotlight Hour",
+        "weekday": true
+      },
+      {
+        "date": "2024-12-17",
+        "type": "Spotlight Hour",
+        "weekday": true
+      },
+      {
+        "date": "2024-12-24",
+        "type": "Spotlight Hour",
+        "weekday": true
+      },
+      {
+        "date": "2024-12-04",
+        "type": "Raid Hour",
+        "weekday": true
+      },
+      {
+        "date": "2024-12-11",
+        "type": "Raid Hour",
+        "weekday": true
+      },
+      {
+        "date": "2024-12-18",
+        "type": "Raid Hour",
+        "weekday": true
+      },
+      {
+        "date": "2024-12-25",
+        "type": "Raid Hour",
+        "weekday": true
+      },
+      {
+        "date": "2024-12-02",
+        "type": "Max Monday",
+        "weekday": true
+      },
+      {
+        "date": "2024-12-09",
+        "type": "Max Monday",
+        "weekday": true
+      },
+      {
+        "date": "2024-12-16",
+        "type": "Max Monday",
+        "weekday": true
+      },
+      {
+        "date": "2024-12-23",
+        "type": "Max Monday",
+        "weekday": true
+      },
+      {
+        "date": "2024-12-30",
+        "type": "Max Monday",
+        "weekday": true
+      },
+      {
+        "date": "2024-12-07",
+        "type": "Aspiring Dragons Research Day",
+        "weekday": false
+      },
+      {
+        "date": "2024-12-08",
+        "type": "Gigantamax Lapras Max Battle Day",
+        "weekday": false
+      },
+      {
+        "date": "2024-12-14",
+        "type": "Necrozma Fusion Raid Day",
+        "weekday": false
+      },
+      {
+        "date": "2024-12-21",
+        "type": "Community Day Weekend Day 1",
+        "weekday": false
+      },
+      {
+        "date": "2024-12-22",
+        "type": "Community Day Weekend Day 2",
+        "weekday": false
+      }
+    ]
+  }
+  

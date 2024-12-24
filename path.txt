@@ -1,0 +1,1 @@
+glpsol -m meetup.mod -d meetup.dat -o meetup.out -y "meetup.txt"
